@@ -1,0 +1,39 @@
+section{
+    margin: 15px;
+}
+
+img{
+    height: 100px;
+    margin-bottom: 8px;
+}
+
+@media (max-width: 767px) {
+    #secciontexto,#seccionimagenes,#seccionjuego{
+        margin-left: 15px !important;
+        margin-right: 15px;
+    }
+
+    #seccioncontacto{
+        margin-left: none;
+        margin-right: -115px;
+    }
+}
+
+#seccionimagenes{
+    margin: 50px;
+}
+
+#cuadrosimagenes{
+    margin-left: 50px;
+    padding-left: 25px;
+    width: 400px !important;
+}
+
+#seccionjuego{
+    margin: 50px;
+    width: 300px;
+}
+
+footer{
+    padding-bottom: 30px;
+}
