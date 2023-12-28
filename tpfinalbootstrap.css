@@ -5,10 +5,11 @@ section{
 img{
     height: 100px;
     margin-bottom: 8px;
+    margin-left: 50px;
 }
 
 @media (max-width: 767px) {
-    #secciontexto,#seccionimagenes,#seccionjuego{
+    #secciontexto,#seccionjuego{
         margin-left: 15px !important;
         margin-right: 15px;
     }
@@ -19,12 +20,8 @@ img{
     }
 }
 
-#seccionimagenes{
-    margin: 50px;
-}
-
 #cuadrosimagenes{
-    margin-left: 50px;
+    margin-left: none;
     padding-left: 25px;
     width: 400px !important;
 }
