@@ -1,11 +1,9 @@
-section{
-    margin: 15px;
+img{
+    height: 200px;
 }
 
-img{
-    height: 100px;
-    margin-bottom: 8px;
-    margin-left: 50px;
+.card{
+    margin-top: 15px;
 }
 
 @media (max-width: 767px) {
@@ -18,12 +16,6 @@ img{
         margin-left: none;
         margin-right: -115px;
     }
-}
-
-#cuadrosimagenes{
-    margin-left: none;
-    padding-left: 25px;
-    width: 400px !important;
 }
 
 #seccionjuego{
