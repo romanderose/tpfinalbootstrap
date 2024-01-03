@@ -4,11 +4,9 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     
-    <!--Link para el CSS de Bootstrap-->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" 
     rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" 
     crossorigin="anonymous">
-    <!--Fin del link del CSS de Bootstrap-->
 
     <link rel="stylesheet" href="./tpfinalbootstrap.css">
 
@@ -17,7 +15,7 @@
 </head>
 <body class="bg-warning">
 
-    <!--MENÚ DE NAVEGACIÓN-->
+<!--MENÚ DE NAVEGACIÓN-->
     
     <h6 id="primerh6" class="w-50 ms-3 text-center bg-dark text-light border border-light">
         MENÚ DE CONTENIDOS
@@ -50,7 +48,9 @@
         </li>
     </ul>
 
-    <!--TÍTULO-->
+<!------------------------------------------------------------------------------------------------>
+
+<!--TÍTULO-->
 
     <section id="partedearriba" class="row">
 
@@ -58,9 +58,9 @@
     
     </section>
 
-    <!------------------------------------------------------------------------------------------------>
+<!------------------------------------------------------------------------------------------------>
 
-    <!--TEXTO-->
+<!--TEXTO-->
 
     <section id="secciontexto" class="row container">
 
@@ -99,17 +99,17 @@
     
     </section>
 
-    <!------------------------------------------------------------------------------------------------>
+<!------------------------------------------------------------------------------------------------>
 
-    <!--IMÁGENES-->
+<!--IMÁGENES-->
 
-    <main id="seccionimagenes" class="container row">
+    <main id="seccionimagenes" class="container row text-light">
 
         <h2 class="text-success">ALGUNAS IMÁGENES CON LAS QUE ME SIENTO IDENTIFICADO</h2>
 
         <div class="col-8 col-lg-12">
 
-            <div class="card bg-success text-warning" style="width: 18rem; margin-left: 20px; padding: 5px;">
+            <div class="card bg-success" style="width: 18rem; margin-left: 20px; padding: 5px;">
                 <img src="./imagenes/asado.jpg" class="card-img-top" alt="Asado">
                 <div class="card-body">
                   <h5 class="card-title text-center">
@@ -122,7 +122,7 @@
 
         <div class="col-8 col-lg-12">
 
-            <div class="card bg-success text-warning" style="width: 18rem; margin-left: 20px; padding: 5px;">
+            <div class="card bg-success" style="width: 18rem; margin-left: 20px; padding: 5px;">
                 <img src="./imagenes/bocabarca.jpg" class="card-img-top" alt="Escudos de Boca y del Barcelona">
                 <div class="card-body">
                   <h5 class="card-title text-center">
@@ -135,7 +135,7 @@
 
         <div class="col-8 col-lg-12">
 
-            <div class="card bg-success text-warning" style="width: 18rem; margin-left: 20px; padding: 5px;">
+            <div class="card bg-success" style="width: 18rem; margin-left: 20px; padding: 5px;">
                 <img src="./imagenes/play4.jpg" class="card-img-top" alt="Escudos de Boca y del Barcelona">
                 <div class="card-body">
                   <h5 class="card-title text-center">
@@ -148,9 +148,9 @@
         
     </main>
 
-    <!------------------------------------------------------------------------------------------------>
+<!------------------------------------------------------------------------------------------------>
 
-    <!--JUEGO-->
+<!--JUEGO-->
 
     <section id="seccionjuego" class="row">
 
@@ -158,16 +158,31 @@
                 BASADA EN EL ARTÍCULO "ROMÁN DE ROSE: ACERCA DE MÍ"
             </h2>
 
+<!------------------------------Reglas del juego------------------------------>
+
             <h3>
                 <ol>Reglas del juego:</ol>
-                <ol># Cada respuesta correcta suma 1 punto</ol> 
+
                 <ol># Responder en minúscula, sin tilde y no dejar los campos 
-                vacíos, sino se tomará la respuesta como incorrecta</ol>
+                vacíos, si alguno de estos puntos no se cumple se tomará la 
+                respuesta como incorrecta, aunque sea correcta.</ol>
+
+                <ol># La condición anterior indica los puntos a tener en cuenta
+                    para que nuestra respuesta sea tomada como correcta (además
+                    de que dicha respuesta sea correcta), no está diciendo que está 
+                    prohibido hacer "Paso" (optar por dejar un campo en blanco), 
+                    esta jugada es totalmente válida.
+                </ol>
+
+                <ol># Cada respuesta correcta suma 1 punto.</ol> 
+
                 <ol># Los intentos son ilimitados, se puede cambiar la 
                 respuesta cuantas veces sea necesario, PERO NO VALE VOLVER AL 
                 TEXTO NI A LAS IMÁGENES A BUSCAR LAS RESPUESTAS, 
                 ESO ES TRAMPA!!</ol>
             </h3>
+
+<!------------------------------Pregunta 1------------------------------>
 
             <h4 class="text-danger">Pregunta 1</h4>
         
@@ -185,7 +200,7 @@
             <button class="w-50 botonesjuego">Responder</button> 
             <p class="estadorespuesta">Aquí se mostrará el estado de tu respuesta.</p>
 
-    <!---------------Pregunta 2--------------------------------------------->
+<!------------------------------Pregunta 2------------------------------> 
 
             <h4 class="text-danger">Pregunta 2</h4>
 
@@ -204,7 +219,8 @@
             <button class="w-50 botonesjuego">Responder</button> 
             <p class="estadorespuesta">Aquí se mostrará el estado de tu respuesta.</p>
 
-    <!---------------Pregunta 3--------------------------------------------->
+
+<!------------------------------Pregunta 3------------------------------>
 
             <h4 class="text-danger">Pregunta 3</h4>
 
@@ -247,9 +263,9 @@
 
     </section>
 
-    <!------------------------------------------------------------------------------------------------>
+<!------------------------------------------------------------------------------------------------>
 
-    <!--PIE DE PÁGINA-->
+<!--PIE DE PÁGINA-->
 
     <footer id="seccioncontacto" class="bg-dark">
         <h4 class="text-light">CONTACTO</h4>
@@ -314,10 +330,8 @@
  
     </footer>
 
-    <!--Link al script de Bootstrap-->
     <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.10.2/dist/umd/popper.min.js" integrity="sha384-7+zCNj/IqJ95wo16oMtfsKbZ9ccEh31eOz1HGyDuCQ6wgnyJNSYdrPa03rtR1zdB" 
     crossorigin="anonymous"></script>
-    <!--Fin del link al script de Bootstrap-->
 
     <script src="./tpfinalbootstrap.js"></script>
 </body>

@@ -1,7 +1,7 @@
-/*----SECCIÓN JUEGO----*/
+//Sección juego
 
 /*No pude encontrar la manera de armar el juego con Bootstrap, por eso
-lo hice en este archivo*/
+lo hice en este archivo.*/
 
 let allinputs = document.querySelectorAll("input")
 let botones = document.querySelectorAll(".botonesjuego")
@@ -63,7 +63,3 @@ boton3.addEventListener('click', ()=>{
 
 
 })
-
-
-
-
